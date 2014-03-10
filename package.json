@@ -1,0 +1,54 @@
+{
+  "name": "noflo-prompts",
+  "description": "Prompts for noflo on the browser.",
+  "version": "0.0.1",
+  "keywords": [
+    "noflo",
+    "prompt",
+    "debug",
+    "browser"
+  ],
+  "author": "Alfredo Consebola <sistemas.alfredo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfa256/noflo-prompts"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alfa256/noflo-prompts/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "noflo": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt-exec": "~0.4.2",
+    "noflo-test": "~0.0.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.6",
+    "grunt-coffeelint": "~0.0.6",
+    "grunt-cafe-mocha": "~0.1.2",
+    "chai": "~1.5.0",
+    "mocha": "~1.9.0",
+    "grunt-mocha-phantomjs": "~0.2.2",
+    "grunt-component-build": "~0.2.7",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "component-json": "~0.1.4",
+    "grunt-combine": "~0.8.3",
+    "grunt-component": "~0.1.2"
+  },
+  "noflo": {
+    "icon": "bug",
+    "components": {
+      "Alert": "./components/Alert.coffee",
+      "Confirm": "./components/Confirm.coffee",
+      "Prompt": "./components/Prompt.coffee"
+    },
+    "graphs": {
+    }
+  },
+  "scripts": {
+  }
+}

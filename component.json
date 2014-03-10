@@ -1,0 +1,28 @@
+{
+  "name": "noflo-strings",
+  "description": "String Utilities for NoFlo",
+  "author": "Alfredo Consebola <sistemas.alfredo@gmail.com>",
+  "repo": "noflo-prompts",
+  "version": "0.0.1",
+  "keywords": [
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "components/Alert.coffee",
+    "components/Confirm.coffee",
+    "components/Prompt.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "icon": "bug",
+    "components": {
+      "Alert": "components/Alert.coffee",
+      "Confirm": "components/Confirm.coffee",
+      "Prompt": "components/Prompt.coffee"
+    }
+  }
+}
