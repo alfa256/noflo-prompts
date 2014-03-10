@@ -10,14 +10,24 @@ Components:
 Alert
 ------
 Displays an alert.
+Makes one alert per text packet from IN.
+Sends true from OUT after 'OK'.
 
 Confirm
 -------
 Displays a confirmation.
 
+Makes one Confirmation per text packet from IN.
+Sends true or false depending on 'OK' or 'Cancel' from OUT.
+
 Prompt
 -------
 Displays a text prompt.
+
+Makes one Prompt per text packet from IN.
+Sends entered text from OUT.
+
+Copyright 2014 Alfredo Consebola.
 
 
 
