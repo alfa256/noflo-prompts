@@ -1,6 +1,7 @@
 noflo = require 'noflo'
 
 class Prompt extends noflo.Component
+  icon: 'fa-pencil'
   constructor: ->
     @inPorts =
       in: new noflo.Port 'string'
