@@ -1,7 +1,7 @@
 noflo = require 'noflo'
 
 class Confirm extends noflo.Component
-  icon: 'fa-check'
+  icon: 'check'
   constructor: ->
     @inPorts =
       in: new noflo.Port 'string'

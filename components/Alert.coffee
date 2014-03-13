@@ -1,7 +1,7 @@
 noflo = require 'noflo'
 
 class Alert extends noflo.Component
-  icon: 'fa-exclamation'
+  icon: 'exclamation'
   constructor: ->
     @inPorts =
       in: new noflo.Port 'string'
