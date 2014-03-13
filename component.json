@@ -12,7 +12,8 @@
   "scripts": [
     "components/Alert.coffee",
     "components/Confirm.coffee",
-    "components/Prompt.coffee"
+    "components/Prompt.coffee",
+    "index.js"
   ],
   "json": [
     "component.json"
