@@ -10,7 +10,10 @@ class Alert extends noflo.Component
 
     @inPorts.in.on 'data', (data) =>
       if data isnt undefined
-        alert data
+        if noflo.isBrowser()
+          alert data
+        else
+          console.log("Alert: " + data)
         @outPorts.out.send true
         @outPorts.out.disconnect()
 
