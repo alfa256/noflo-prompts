@@ -3,7 +3,7 @@ noflo = require 'noflo'
 class Confirm extends noflo.Component
   icon: 'fa-check'
   constructor: ->
-    @inPorst =
+    @inPorts =
       in: new noflo.Port 'string'
     @outPorts =
       out: new noflo.Port 'bool'
